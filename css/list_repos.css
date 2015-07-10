@@ -1,0 +1,14 @@
+#page_header {
+    margin-bottom: 20px;
+}
+.dataTables_length, .dataTables_filter {
+    margin-bottom: 1em;
+}
+.topics {
+    margin-top: 2em;
+    padding: 0;
+}
+#clear_topic {
+    margin-top: 1em;
+    font-style: italic;
+}

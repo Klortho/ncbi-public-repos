@@ -1,0 +1,5 @@
+.action_page .button_text, .button_text {min-height: 5em;}
+.action_page .eight_col, .cat_page .eight_col {width: 95%;}
+.action_page .four_col, .cat_page .four_col {width: 95%;margin-top:1em;}
+#page_header .med_hidden {display: none;}
+#page_header a#page_header_8, #page_header a#page_header_7 {padding-left: 0;}

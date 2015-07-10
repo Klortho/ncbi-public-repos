@@ -1,0 +1,53 @@
+.grid {width: 90%;}
+.inline_list li {margin-right: 0;}
+.uppercase {text-transform: uppercase;}
+ul {list-style-type: none;}
+a {text-decoration: none;}
+.black_text a {color: #000000;}
+h3, h3 a {color: #985735;}
+.gray-border {border-color: #F0F0F0;
+              border-width: 0 0 1px 0;
+              border-style: solid;
+              clear: both;}
+.gray_text {color: #666666;}
+.button_text {min-height: 4em;}
+
+.ui-ncbigrid td {vertical-align: top;}
+
+/* CSS classes used in CMS pages */
+.width-ten-pct {width: 10%;}
+.width-twenty-pct {width: 20%;}
+.width-thirty-pct {width: 30%;}
+.width-fourty-pct {width: 40%;}
+.width-fifty-pct {width: 50%;}
+
+.width-100px{width: 100px;}
+.width-150px{width: 150px;}
+.width-200px{width: 200px;}
+.width-250px{width: 250px;}
+.width-300px{width: 300px;}
+.width-400px{width: 400px;}
+.width-500px{width: 500px;}
+.width-600px{width: 600px;}
+
+
+/* feedback form */
+#feedback-comment {
+    width:100%;
+    height: 300px;
+    font-size:1em;
+    font-family: arial,helvetica,clean,sans-serif;
+}
+
+#feedback-header span{
+    font-size:12px; font-weight: normal;
+}
+
+#sticky-feedback-form table td {border:0;}
+#sticky-feedback-form table select {width:20em;}
+
+.margin-0 { margin:0; }
+.padding-0 {padding:0;}
+
+
+.fixed { position:fixed; }

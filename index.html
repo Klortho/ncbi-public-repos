@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Public repositories - Develop - NCBI</title>
+
+    <link rel="stylesheet" type="text/css" href="css/action-pgs.css" />
+    <link media="only screen and (max-width: 905px)" rel="stylesheet" 
+      href="css/medium_screen.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/standard_base.css" />
+    <link rel="stylesheet" type="text/css" href="css/new_grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/homepage.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="css/feedback.css" />
+
+    <!-- icon font stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom_font_styles.css" />
+
+    <link rel="stylesheet" type="text/css" 
+      href="https://cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/list_repos.css" />
+
+
+  </head>
+  <body>
+    <div class="grid">
+   
+
+      <header id="page_header" role="banner">
+        <nav class="blue_nav_bar">
+          <div class="nih">
+            <a href="http://www.nih.gov/" class="left norm_height">
+              <img src="assets/nih_logo.svg" alt="NIH logo" class="left"/></a>
+            <a href="http://www.nlm.nih.gov/" class="left header_link">U.S. National Library of 
+              Medicine</a>
+          </div>
+
+          <div class="left">
+            <img src="assets/arrow.svg" class="left norm_height" alt=""/>
+          </div>
+
+          <div class="ncbi">
+            <a href="http://www.ncbi.nlm.nih.gov/" class="header_link">
+              <span class="ncbi_name">NCBI</span>
+              <span class="med_hidden">National Center for Biotechnology Information</span></a>
+
+          </div>
+        </nav>
+      </header>
+
+
+      <div id="maincontent" class="action_page">
+
+        <h1 class="gray-border large_h1">NCBI Public Code Repositories</h1>
+
+        <p class="gray-border header">NCBI provides several public software repositories that 
+          developers can use to do cool things.</p>
+
+        <section class="col two_col">
+          <h3 role="heading">Topic</h4>
+          <ul class='topics'>
+            <li><a href="">Literature</li>
+            <li><a href="">Health</a></li>
+            <li><a href="">Genomes</a></li>
+            <li><a href="">Genes</a></li>
+            <li><a href="">Proteins</a></li>
+            <li><a href="">Chemicals</a></li>
+            <li id='clear_topic'><a href="">Clear</a></li>
+          </ul>
+        </section>
+
+
+        <div class="col ten_col develop">
+
+          <table id="repos" class="display dataTable">
+            <thead>
+              <tr>
+                <th class="sorting_asc">Repository</th>
+                <th class="sorting">Topic</th>
+                <th class="sorting">Description</th>
+              </tr>
+            </thead>
+          <!--
+            <tfoot>
+              <tr>
+                <th class="sorting_asc">Repository</th>
+                <th class="sorting">Topic</th>
+                <th class="sorting">Description</th>
+              </tr>
+            </tfoot>
+          -->
+          </table>
+        </div>
+
+      </div>
+
+
+    
+
+      <footer id="page_footer">
+        <div class="foot_wrap">
+          <!-- top section of footer w link lists -->
+
+          <div class="col two_col">
+            <h3 role="heading" aria-level="3">NCBI</h3>
+            <ul>
+              <li><a href="about/">About NCBI</a></li>
+              <li><a href="https://submit.ncbi.nlm.nih.gov/">Submit</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/public/">Download</a></li>
+              <li><a href="learn.shtml">Learn</a></li>
+              <li><a href="develop.shtml">Develop</a></li>
+              <li><a href="analyze.shtml">Analyze</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/research/">Research</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/news/">NCBI News</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/guide/sitemap/">Resource List (A-Z)</a></li>
+            </ul>
+          </div>
+
+          <div class="col two_col">
+            <h3 role="heading" aria-level="3">Literature</h3>
+            <ul>
+                <li><a href="http://www.ncbi.nlm.nih.gov/pubmed/">PubMed</a></li>
+                <li><a href="http://www.ncbi.nlm.nih.gov/pmc/">PMC</a></li>
+                <li><a href="http://www.ncbi.nlm.nih.gov/books/">Books</a></li>
+                <li><a href="http://www.ncbi.nlm.nih.gov/nlmcatalog/">NLM Catalog</a></li>
+            </ul>
+
+            <h3 role="heading" aria-level="3">Health</h3>
+            <ul>
+                <li><a href="http://www.ncbi.nlm.nih.gov/pubmedhealth/">PubMed Health</a></li>
+                <li><a href="http://www.ncbi.nlm.nih.gov/medgen/">MedGen</a></li>
+                <li><a href="http://www.ncbi.nlm.nih.gov/gtr/">GTR</a></li>
+                <li><a href="http://www.ncbi.nlm.nih.gov/clinvar/">ClinVar</a></li>
+                <li><a href="http://www.ncbi.nlm.nih.gov/gap/">dbGap</a></li>
+            </ul>
+          </div>
+
+          <div class="col two_col">
+            <h3 role="heading" aria-level="3">Genomes</h3>
+            <ul>
+              <li><a href="http://www.ncbi.nlm.nih.gov/genome">Genome</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/nucleotide">Nucleotide</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/sra">SRA</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/assembly">Assembly</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/snp">dbSNP</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/dbvar">dbVar</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/geo/">GEO</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/epigenomics">Epigenomics</a></li>
+            </ul>
+          </div>
+
+          <div class="col two_col">
+            <h3 role="heading" aria-level="3">Genes</h3>
+            <ul>
+              <li><a href="http://www.ncbi.nlm.nih.gov/gene/">Gene</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/nucleotide/">Nucleotide</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/genbank/">GenBank</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/refseq/">RefSeq</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/genbank/tpa">TPA</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/geo/">GEO</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/unigene">UniGene</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/homologene">HomoloGene</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/biosystems">BioSystems</a></li>
+            </ul>
+          </div>
+
+          <div class="col two_col">
+            <h3 role="heading" aria-level="3">Proteins</h3>
+            <ul>
+              <li><a href="http://www.ncbi.nlm.nih.gov/protein/">Protein</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/refseq/">RefSeq</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/genbank/tpa">TPA</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/homologene">HomoloGene</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/cdd">CDD</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/proteinclusters">Protein Clusters</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/structure">Structure</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/pcassay">PubChem BioAssay</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/biosystems">BioSystems</a></li>
+            </ul>
+          </div>
+
+          <div class="col two_col">
+            <h3 role="heading" aria-level="3">Chemicals</h3>
+            <ul>
+              <li><a href="http://pubchem.ncbi.nlm.nih.gov/">PubChem</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/pcassay">BioAssay</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/pcsubstance">Substance</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/pccompound">Compound</a></li>
+              <li><a href="http://www.ncbi.nlm.nih.gov/biosystems">BioSystems</a></li>
+            </ul>
+          </div>
+
+          <!-- social media -->
+          <div class="col two_col social">
+            <h3 role="heading" aria-level="3">Social</h3>
+            <ul class="social_media">
+      				<li><a href="https://www.facebook.com/ncbi.nlm"><span 
+                class="social-icon icon-facebook icon-2x" aria-hidden="true"></span><span 
+                class="icon-fallback-text">Facebook</span></a></li>
+      				<li><a href="https://www.twitter.com/ncbi"><span 
+                class="social-icon icon-twitter icon-2x" aria-hidden="true"></span><span 
+                class="icon-fallback-text">Twitter</span></a></li>
+      				<li><a href="https://plus.google.com/s/ncbi"><span 
+                class="social-icon icon-google-plus icon-2x" aria-hidden="true"></span><span 
+                class="icon-fallback-text">Google+</span></a></li>
+      				<li><a href="https://www.linkedin.com/company/national-center-for-biotechnology-information-ncbi-"><span 
+                class="social-icon icon-linkedin icon-2x" aria-hidden="true"></span><span 
+                class="icon-fallback-text">LinkedIn</span></a></li>
+      				<li><a href="https://www.youtube.com/ncbinlm"><span 
+                class="social-icon icon-youtube icon-2x" aria-hidden="true"></span><span 
+                class="icon-fallback-text">YouTube</span></a></li>
+      				<li><a href="https://github.com/ncbi"><span 
+                class="social-icon icon-github icon-2x" aria-hidden="true"></span><span 
+                class="icon-fallback-text">GitHub</span></a></li>
+      				<li><a href="http://www.ncbi.nlm.nih.gov/news/announcements-list/"><span 
+                class="social-icon icon-rss icon-2x" aria-hidden="true"></span><span 
+                class="icon-fallback-text">RSS Updates</span></a></li>
+      				<li><a href="http://www.ncbi.nlm.nih.gov/news/announcements-list/"><span 
+                class="social-icon icon-email icon-2x" aria-hidden="true"></span><span 
+                class="icon-fallback-text">Email Updates</span></a></li>
+      				<li><a href="http://ncbiinsights.ncbi.nlm.nih.gov/"><span 
+                class="social-icon icon-blog icon-2x" aria-hidden="true"></span><span 
+                class="icon-fallback-text">NCBI Blog</span></a></li>
+            </ul>
+          </div>
+
+          <a href="/sites/ehelp?Ncbi_App=guide4beta" class="right help_desk">Write to the 
+            Help Desk</a>
+
+        </div>
+
+        <!-- bottom section of footer -->
+        <div role="contentinfo">
+          <ul class="right inline_list">
+            <li><a href="http://www.nlm.nih.gov"><span class="footer-icon icon-nlm-footer-logo icon-7x" aria-hidden="true"></span><span class="icon-fallback-text">National Library Of Medicine</span></a></li>
+            <li><a href="http://www.nih.gov"><span class="footer-icon icon-nih-footer-logo icon-7x" aria-hidden="true"></span><span class="icon-fallback-text">National Institutes Of Health</span></a></li>
+            <li><a href="http://www.hhs.gov"><span class="footer-icon icon-hhs-footer-logo icon-7x" aria-hidden="true"></span><span class="icon-fallback-text">U.S. Department of Health & Human Services</span></a></li>
+            <li><a href="http://www.usa.gov"><span class="footer-icon icon-usagov-footer-logo icon-7x" aria-hidden="true"></span><span class="icon-fallback-text">USA.gov</span></a></li>
+          </ul>
+
+          <div class="footer_padding">
+
+            <div class="footer_border h-card">
+
+              <a href="http://www.ncbi.nlm.nih.gov/" 
+                class="u-url"><h3 role="heading" aria-level="3" 
+                class="ncbi_blue p-org">NCBI</h3></a>
+
+              <address>
+                <a href="http://www.ncbi.nlm.nih.gov/" class="u-url p-org">National Center for 
+                  Biotechnology Information,</a><a href="http://www.nlm.nih.gov/"> U.S. 
+                  National Library of Medicine</a>
+                <span class="h-adr">
+                  <span class="p-street-address">8600 Rockville Pike</span>,
+                  <span class="p-locality">Bethesda</span>
+                  <span class="p-region"> MD</span>,
+                  <span class="p-postal-code">20894</span>
+                  <span class="p-country-name">USA</span>
+                </span>
+              </address>
+
+            </div>
+
+            <div class="inline_list about_list">
+              <a href="about/policies.shtml">Polices and Guidelines</a> |
+              <a href="about/contact.shtml">Contact</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript"
+            src="polyfills/fetch.js"></script>
+    <script type="text/javascript"
+            src="http://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.3.0/js-yaml.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" 
+            src="js/hp.js"></script>
+    <script type="text/javascript" 
+            src="js/header.js"></script>
+    <script type="text/javascript" 
+            src="https://cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript"
+            src="js/list_repos.js"></script>
+
+
+  </body>
+</html>

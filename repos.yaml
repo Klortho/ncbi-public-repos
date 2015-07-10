@@ -1,0 +1,75 @@
+API-All-the-X:
+  topic: "Health"
+
+blast-cloud:
+  topic: "Genes"
+
+cassandra-cpp-driver:
+  topic: "Proteins"
+
+citation-exporter:
+  topic: "Literature"
+
+DtdAnalyzer:
+  topic: "Literature"
+
+JATSPreviewStylesheets:
+  topic: "Literature"
+
+ngs:
+  topic: "Literature"
+
+ncbi_css_standards:
+  topic: "Literature"
+
+osiris:
+  topic: "Literature"
+
+PMCXMLConverters:
+  topic: "Literature"
+
+PubReader:
+  topic: "Literature"
+
+sratoolkit:
+  topic: "Literature"
+
+ncbi-vdb:
+  topic: "Literature"
+
+nlm-dtd:
+  topic: "Literature"
+
+niso-jats:
+  topic: "Literature"
+
+sra-tools:
+  topic: "Literature"
+
+robotframework:
+  topic: "Literature"
+
+robotframework-pageobjects:
+  topic: "Literature"
+
+Solr-Plugins:
+  topic: "Literature"
+
+ncbi_font:
+  topic: "Literature"
+
+finagle:
+  topic: "Literature"
+
+ngs-tools:
+  topic: "Literature"
+
+render-math:
+  topic: "Literature"
+
+deflake:
+  topic: "Literature"
+
+python-libpq-dev:
+  topic: "Literature"
+

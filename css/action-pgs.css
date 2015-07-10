@@ -1,0 +1,270 @@
+.grid {background-color: #FFFFFF;}
+.action_page {overflow: auto;
+              margin: 0 1em 5em 1em;}
+.action_page h1.large_h1 {font-size: 2.3em;
+                 margin: .2em 0 .4em;}
+.action_page p.header {margin-bottom: 1em;
+                       padding-bottom: 1em;}
+.action_page a {color: #336699;}
+
+/* first section w img */
+.action_page .four_col {padding-left: 1em;}
+.action_page section.gray-border {overflow: auto;
+    margin: 1em 0;}
+.action_page .black_text, .action_page .black_text p, .action_page .black_text h2,
+    .action_page .black_text h3, .action_page .four_col h4, .action_page .gray_background h5,
+    .action_page .actionpg_h2 {color: #000000;}
+.action_page img {padding: 0 1em 1em 0;}
+.action_page ul.actionpg_ul {padding-left: 0;}
+.action_page .explore_box {border: 2px solid #FFFFFF;
+                         padding: .2em .5em;
+                         border-radius: 3px;
+                         margin-bottom:5px; }         
+.action_page .explore_box_gray {border: 2px solid #eee;
+                         padding: .2em .5em;
+                         border-radius: 3px;
+                         margin-bottom:5px; }
+.action_page .explore_box_gray span:after{content:'▶';display:inline-block; margin-left:5px;}                           
+.action_page .start-column {vertical-align: middle;
+                            text-align: left;
+                            padding-left:20px;}
+/* vertical columns */
+.action_page .col.three_col p {padding-bottom: 1em;}
+.action_page .col.three_col p.lg-icon { padding-bottom:0;}  
+.action_page section.three {float: left;
+    width: 33.3333%;}
+.action_page dl dd {margin-left: 0;}
+.action_page li, .action_page dd {padding: 0 0 1em;}
+.action_page section {border-left: 1px solid #F0F0F0;
+    padding: 0 .5em 0 1.5em;}
+.action_page section.no_border {border-left: none;}
+.action_page a.italics {font-style: italic;}
+.action_page dl.bold_link a {font-weight: bold;}
+.action_page p.extra-bottom-padding {padding-bottom: 3.4em;}
+.action_page p.develop-action-icon {padding-bottom: 2em;}
+
+
+/* videos */
+.action_page figure {margin: 0 1em 1em 0;
+                     overflow: auto;}
+
+
+/* supporting resources */
+.action_page section.twelve_col {background-color: #EAEAEA;
+    border: 1px solid #D5D5D5;
+    margin: 1em 1em 2em;
+    padding: 0 0 1em 1em;
+    width: 96%;}
+.action_page section.twelve_col dt {float: left;
+    clear: both;
+    width: 33.3333%;}
+.action_page section.twelve_col dd {float: left;}
+.action_page h2.tutorials, .action_page h2.documentation {margin-bottom: 0;}
+
+
+.action_page .action_bar section {padding: 0 1em 5em 1em;
+                                  height:16em;
+                                  text-align: center;}
+
+.action_page .social {background-color: #EAEAEA;
+                      padding: 0 1em 1em 0;
+                      margin-top:20px;}
+.action_page ul.social_media {margin:0 0 4em;padding:0;}
+.action_page .social_media li {float: left;
+                                width: 10%;
+                                padding: 0.5em 0.2em 1em 0;}
+.action_page .sm_l_margin {margin-left: 2%;}
+.action_page .six_col {width: 49%;
+                       height: 10em;}
+.action_page .right_of_icon {width: 70%;
+                             float: right;}
+.action_page .one_box_right_of_icon {width: 87%;
+                                     float: right;}
+.action_page .one_box_right_of_icon p {padding-right: 1em;}
+.action_page .eight_col {margin-right: 1em;
+                         width: 66%;}
+.action_page .four_col {width: 32%;
+                        min-width: 200px;
+                        max-width: 300px;}
+.action_page .social ul {border: none;
+                         height: 100%;}
+.action_page .social ul li {float: none;
+                            width: 100%;
+                            padding: 0;}
+.action_page .relative {position: relative;
+                        left: .3em;
+                        top: .3em;}
+.action_page .relative4 {position: relative;
+                         left: .4em;
+                         top: .4em;}
+ .action_page .contact-box-icon { top:.7em; left:.5em; }  /* to be removed when icon font is fixed */                      
+.action_page h2.black_text.reduced_margin {margin-top: .5em;}
+.action_page ul.list_spacing {padding: .5em 0 2em 0;}
+.action_page .list_spacing li {padding-right: 1.5em;}
+.action_page ul.ul_noborder {border-top: none;
+                             padding: .5em 0;}
+.action_page ul.bullet-list { list-style-type: square; }                             
+
+.action_page select {background-color: #EAEAEA;
+                     border-radius: 0;
+                     border: 2px solid #FFFFFF;
+                     box-shadow: 1px 1px 2px #888;}
+.action_page option {padding: 3px .5em;
+                    margin: 0;}
+.action_page button[name=Submit] {background: #005295;
+                                  color: #FFFFFF;
+                                  border: none;
+                                  padding: 0.4em 0.5em;
+                                  margin: 0;}
+.action_page button[name=Signin] {background:#32669e;
+                                  color:  #e8ebed;
+                                  padding: 0 15px;
+                                  margin: 0 0 10px 0;
+                                  border-radius: 3px;
+                                  border:1px solid #70a0d3;
+                                  -webkit-box-shadow: 1px 1px 1px 1px #464545;
+                                  box-shadow: 1px 1px 1px 1px #464545;}
+
+.submit-page .action_bar section {
+    overflow: visible;
+}
+.submit-drop {
+    text-align: left;
+}
+.submit-drop .col {
+    padding-right: 0;
+    overflow: visible;
+}
+.submit-drop select {
+    width:99%;
+}
+
+.submit-drop select {
+    margin-top:.5em;
+}
+.submit-drop select:nth-child(2) {
+    margin-top:0;
+}
+.submit-drop button[type=submit] {
+    margin-top:.5em;
+    padding:.5em 1em;
+}
+
+
+.action_page .submit-bg-img, .action_page .submit2-bg-img {background-image: url(pageimg/submit.jpg);
+                                                           height: 270px;
+                                                           padding: 2em;}
+.action_page .submit2-bg-img {background-image: url(pageimg/submit-signedin.jpg);}
+.action_page .submit-bg-img h1, .action_page .submit2-bg-img h1, .action_page .submit-bg-img h2 {margin: 0;
+                                                                                                 font-size: 2em;
+                                                                                                 color:#fff;
+                                                                                                 line-height:2em;}
+.action_page .submit-bg-img h2 {font-size:1.2em;}
+
+/* upcoming events */
+.action_page section {padding-right: 0;}
+.action_page h4 {margin-top: 0;}
+.action_page ul.actionpg_ul {border-top: 1px solid #F0F0F0;
+                             padding: .5em 0;}
+.action_page ul.sortable {float: right;
+                          width: 100%;}
+.action_page ul.sortable li {width: 33%;
+                             float: left;}
+.action_page h5 {font-style: normal;
+                 font-weight: bold;
+                 color: #985735;
+                 margin-top: 1em;}
+.action_page p.gray_text {margin: .5em 0;}
+.action_page p.no-margin {margin-top: 0;}
+.action_page .events {border-top: 1px solid #F0F0F0;}
+.action_page .events:last-of-type {margin-bottom: 6.35em;}
+.action_page a.underline {text-decoration: underline;}
+.action_page section.no_max_width {max-width: 600px;
+                                   width: 320px;}
+.action_page .border-all-sides {border: 2px solid #f0f0f0;
+                                padding: 1em 1em 0 1em;
+                                margin-bottom: 2em;}
+.action_page h4.margin {margin-top: 1em;}
+
+/* media query for screen sizes 906px - 1060px */
+@media only screen and (max-width: 1060px) and (min-width: 906px) {
+.action_page .eight_col.develop {width: 100%;}}
+
+.collapsableTbodyIcon {display:none;}
+.action_page #original_wrap {display: none;}
+
+/*=========JigGrid + filter toolbar on the learn sub pages =========*/
+
+.ui-ncbigrid caption {display:none;  clear:both;}
+
+.filterToolbar-exists .ui-ncbigrid-filter-toolbar {
+    left:0;
+    text-align:left;
+    width:100%;
+}
+
+.ui-ncbipopper-wrapper {z-index:1100;}
+
+.filterToolbar-exists .ui-ncbigrid-filter-toolbar input[type=text] {
+    width:100%;
+    padding:.2em;
+    padding-bottom:.1em;
+}
+
+/* submission wizard page */
+#submit-wizard-container .filter-clear {right:20px;}
+
+/* courses and webinar page */
+#learn-courses .filter-clear {right:58px;}
+
+/* for the clear button */
+.clear-btn-cont {position: relative;}
+
+.clear-btn-cont input[type="text"]{
+    padding-right:8px;
+    width:100%;
+}
+.clear-btn-cont .clear-btn {
+   display: inline-block;
+    padding: 0 7px;
+    position: absolute;
+    right: -10.9px;
+    top: -1px;
+    display:none;
+}
+/* end clear button */
+
+/* Fix the clear button on learn-courses page, because the caption is too long */
+.clear-btn-cont {
+    margin-left:9em;
+    width:50%;
+    margin-top:-25px;
+}
+/* end JigGrid + filter toolbar on the learn sub pages */
+
+.filterToolbar-exists .ui-ncbigrid-outer-div {margin-top:3em;}
+.filterToolbar-exists .ui-ncbigrid-filter-toolbar {top:-3.5em;}
+.ui-ncbigrid-outer-div.filterToolbar-exists {margin-top:4em;}
+
+/* italicize placeholder text */
+.filterToolbar-exists input::-webkit-input-placeholder {  font-style:italic;  }
+.filterToolbar-exists input:-moz-placeholder { /* Firefox 18- */  font-style:italic;  }
+.filterToolbar-exists input::-moz-placeholder {  /* Firefox 19+ */  font-style:italic;  }
+.filterToolbar-exists input:-ms-input-placeholder {  font-style:italic;  }
+
+/*=========End JigGrid + filter toolbar on the learn sub pages =========*/
+
+/* Quickstart button + select list */
+.select-more-options {position: relative;}
+.select-more-options select {
+    width:85%;
+    display: block;
+    height:25px;
+}
+#submit-data-button {
+    margin:0;padding:.4em;
+    height:25px;
+    margin-top:-24px;
+}
+/* end QuickStart button */
+

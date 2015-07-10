@@ -1,0 +1,15 @@
+.grid { width:100%; margin:0 auto; max-width: 1200px;}
+.col { float: left; background-color: #FFFFFF; overflow:hidden;
+       -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.one_col { width: 8.3333%; }
+.two_col { width: 16.6666%; }
+.three_col { width: 25%; }
+.four_col { width: 33.3333%; }
+.five_col { width: 41.6666%; }
+.six_col { width: 50% }
+.seven_col { width: 58.3333%; }
+.eight_col { width: 66.6666%; }
+.nine_col { width: 75%; }
+.ten_col { width: 82.3333%; }
+.eleven_col { width: 91.6666%; }
+.twelve_col { width: 100%; }

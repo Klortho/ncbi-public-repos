@@ -1,0 +1,15 @@
+#page_header .feedback {position: fixed;
+                        transform: rotate(-90deg) translateX(-13em) translateY(-5em);
+                        -webkit-transform: rotate(-90deg) translateX(-13em) translateY(-5em);
+                        -moz-transform: rotate(-90deg) translateX(-13em) translateY(-5em);
+                        -o-transform: rotate(-90deg) translateX(-13em) translateY(-5em);
+                        -ms-transform: rotate(-90deg) translateX(-13em) translateY(-5em);
+                        border: 2px solid #FFFFFF;
+                        overflow: auto;}
+
+#page_header .feedback a {color: white;
+                        background-color: #005295;
+                        padding: 1.15em 1em;
+                        display: block;}
+#page_header .feedback a:hover {background-color: #336699;
+                                font-weight: bold;}
