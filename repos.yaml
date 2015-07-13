@@ -1,11 +1,11 @@
 API-All-the-X:
-  topic: "Health"
+  topic: "unknown"
 
 blast-cloud:
-  topic: "Genes"
+  topic: "unknown"
 
 cassandra-cpp-driver:
-  topic: "Proteins"
+  topic: "unknown"
 
 citation-exporter:
   topic: "Literature"
@@ -17,13 +17,13 @@ JATSPreviewStylesheets:
   topic: "Literature"
 
 ngs:
-  topic: "Literature"
+  topic: "unknown"
 
 ncbi_css_standards:
-  topic: "Literature"
+  topic: "unknown"
 
 osiris:
-  topic: "Literature"
+  topic: "unknown"
 
 PMCXMLConverters:
   topic: "Literature"
@@ -32,10 +32,10 @@ PubReader:
   topic: "Literature"
 
 sratoolkit:
-  topic: "Literature"
+  topic: "unknown"
 
 ncbi-vdb:
-  topic: "Literature"
+  topic: "unknown"
 
 nlm-dtd:
   topic: "Literature"
@@ -44,32 +44,32 @@ niso-jats:
   topic: "Literature"
 
 sra-tools:
-  topic: "Literature"
+  topic: "unknown"
 
 robotframework:
-  topic: "Literature"
+  topic: "unknown"
 
 robotframework-pageobjects:
-  topic: "Literature"
+  topic: "unknown"
 
 Solr-Plugins:
-  topic: "Literature"
+  topic: "unknown"
 
 ncbi_font:
-  topic: "Literature"
+  topic: "unknown"
 
 finagle:
-  topic: "Literature"
+  topic: "unknown"
 
 ngs-tools:
-  topic: "Literature"
+  topic: "unknown"
 
 render-math:
   topic: "Literature"
 
 deflake:
-  topic: "Literature"
+  topic: "unknown"
 
 python-libpq-dev:
-  topic: "Literature"
+  topic: "unknown"
 
