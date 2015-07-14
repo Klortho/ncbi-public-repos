@@ -1,8 +1,8 @@
 API-All-the-X:
-  topic: "unknown"
+  topic: "tools"
 
 blast-cloud:
-  topic: "unknown"
+  topic: "tools"
 
 cassandra-cpp-driver:
   topic: "unknown"
@@ -17,13 +17,13 @@ JATSPreviewStylesheets:
   topic: "Literature"
 
 ngs:
-  topic: "unknown"
+  topic: "Genomics"
 
 ncbi_css_standards:
   topic: "unknown"
 
 osiris:
-  topic: "unknown"
+  topic: "Forensics"
 
 PMCXMLConverters:
   topic: "Literature"
@@ -32,10 +32,10 @@ PubReader:
   topic: "Literature"
 
 sratoolkit:
-  topic: "unknown"
+  topic: "Genomics"
 
 ncbi-vdb:
-  topic: "unknown"
+  topic: "Genomics"
 
 nlm-dtd:
   topic: "Literature"
@@ -44,7 +44,7 @@ niso-jats:
   topic: "Literature"
 
 sra-tools:
-  topic: "unknown"
+  topic: "Genomics"
 
 robotframework:
   topic: "unknown"
@@ -56,7 +56,7 @@ Solr-Plugins:
   topic: "unknown"
 
 ncbi_font:
-  topic: "unknown"
+  topic: "Internal"
 
 finagle:
   topic: "unknown"
